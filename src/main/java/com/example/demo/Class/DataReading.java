@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 @Entity
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://3.226.147.252")
 @Table(name = "data_readings")
 public class DataReading {
     @Id
