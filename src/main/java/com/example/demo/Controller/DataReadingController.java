@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://3.226.147.252")
+@CrossOrigin(origins = "http://54.86.0.188")
 @RequestMapping("/data-readings")
 public class DataReadingController {
     private final DataReadingRepository dataReadingRepository;
